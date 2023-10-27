@@ -1,0 +1,11 @@
+<link href="https://fonts.googleapis.com/css?family={{fontName}}:400,700" rel="stylesheet">
+<div id="cont" class="cont">
+  <div class="bar" id="bar">
+    <div class="inside {{effect}}">
+      <div class="blank" id="blank"></div>
+      <div class="porcentaje {{effect}}" id="porcentaje"></div>
+    </div>
+  </div>
+  <div class="txt" id="txt"><a id="val">20/20</a>{{titleText}}</div>
+</div>
+

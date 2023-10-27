@@ -1,0 +1,129 @@
+{
+  "goal": {
+    "type": "number",
+    "label": "Goal",
+    "value": 50,
+    "step": 1
+  },
+  "orientacion": {
+    "label": "Orientacion",
+    "type": "dropdown",
+    "options": {
+      "vertical": "Vertical",
+      "horizontal": "Horizontal"
+    },
+    "value": "vertical"
+  },
+  "textPosition": {
+    "label": "Posición Texto",
+    "type": "dropdown",
+    "options": {
+      "up": "Sobre la barra",
+      "down": "Debajo de la barra"
+    },
+    "value": "down"
+  },
+  "ancho": {
+    "type": "number",
+    "label": "ancho de la barra",
+    "value": 60,
+    "step": 1
+  },
+  "colorBack": {
+    "type": "colorpicker",
+    "label": "Current count color",
+    "value": "rgb(55, 55, 55)"
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font color",
+    "value": "rgb(55, 55, 55)"
+  },
+  "fontColorS": {
+    "type": "colorpicker",
+    "label": "Font color Shadow",
+    "value": "rgba(0,0,0,0.65)"
+  },
+  "imageBar": {
+    "label":"Bar Image",
+	"type":"image-input",
+	"value":"https://i.pinimg.com/originals/dc/fc/2c/dcfc2c3241b6cc0292dc40383b7350da.jpg"
+  },
+  "fontName": {
+    "type": "googleFont",
+    "label": "Font name",
+    "value": "Roboto"
+  },
+  "outlineColor":{
+     "type": "colorpicker",
+    "label": "Outline color",
+    "value": "#000000"
+  },
+  "titleText": {
+    "type": "text",
+    "label": "Title text",
+    "value": "Seguidores"
+  },
+  "eventType": {
+    "type": "dropdown",
+    "label": "Pick event type:",
+    "value": "follower",
+    "options": {
+      "follower": "Follower",
+      "subscriber": "Subscriber",
+      "tip": "Tip amount",
+      "cheer": "Bits amount",
+      "subscriber-points":"Subscriber points"
+    }
+  },
+  "eventPeriod": {
+    "type": "dropdown",
+    "label": "Pick period: (doesn't work with sub points)",
+    "value": "session",
+    "options": {
+      "session": "Session",
+      "week": "Week",
+      "month": "Month",
+      "total": "Total",
+      "goal": "Amount from goal data"
+    }
+  },
+  "goalColor": {
+    "type": "colorpicker",
+    "label": "goal Color",
+    "value": "rgb(85, 33, 195)"
+  },
+  "labelSize": {
+    "type": "number",
+    "label": "Label font Size",
+    "value": 24
+  },
+  "effect": {
+    "group": "Efecto",
+    "type": "dropdown",
+    "label": "Efecto Fondo",
+    "value": "invert",
+    "options": {
+      "": "Ninguno",
+      "invert": "Invertido"
+    }
+  },
+  "userLocale": {
+    "type": "text",
+    "label": "User locale to display currency",
+    "value": "en-US"
+  },
+   "fadeoutAfter":{
+    "type":"number",
+    "label":"Fadeout after (s) - 0 to disable",
+    "value":0
+  },
+   "widgetName":{
+   "value":"BarImage",
+   "type":"hidden"
+  },
+  "widgetAuthor":{
+   "value":"cdoDiego",
+   "type":"hidden"
+  }
+}
